@@ -1,0 +1,3 @@
+# Test names are sentences with underscores (docs/agents/rules/testing.md), which CA1707 forbids.
+[*.cs]
+dotnet_diagnostic.CA1707.severity = none

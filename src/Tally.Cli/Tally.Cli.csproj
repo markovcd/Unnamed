@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>tally</AssemblyName>
+    <RootNamespace>Tally.Cli</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tally.Core\Tally.Core.csproj" />
+    <InternalsVisibleTo Include="Tally.Cli.Tests" />
+  </ItemGroup>
+
+</Project>

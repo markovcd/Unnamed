@@ -1,0 +1,23 @@
+; A small household journal. Run: tally balance examples/household.journal
+format 1
+
+2026-01-01 * Opening balances
+    assets:bank:checking   1000.00 USD = 1000.00 USD
+    assets:cash             100.00 USD
+    equity:opening
+
+2026-01-10 * Groceries
+    expenses:food:groceries   40.00 USD
+    assets:cash
+
+2026-02-03 * Lunch with a friend
+    expenses:food:restaurants   15.50 USD
+    assets:bank:checking
+
+2026-02-20 * Gift from abroad
+    assets:bank:checking   25.00 EUR
+    income:gifts
+
+2026-03-01 ! Rent, awaiting confirmation
+    expenses:housing:rent   700.00 USD
+    assets:bank:checking
